@@ -11,7 +11,7 @@ export class DOMUtils {
     const foodCard = document.createElement("div");
     foodCard.className = "card";
 
-    const foodName = document.createElement("p");
+    const foodName = document.createElement("h3");
     foodName.textContent = food.name;
     foodCard.appendChild(foodName);
 
